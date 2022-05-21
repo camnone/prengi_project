@@ -1,0 +1,52 @@
+.decisions{
+    padding: 70px 0 61px 0;
+    min-height: 889px;
+    background: url('../img/bg/decisions.png') center center/cover no-repeat;
+    &__title{
+        text-align: center;
+    }
+    &__menu{
+        width: 843px;
+        height: 64px;
+        border: 1px solid #ffffff;
+        border-radius: 5px;
+        display: block;
+        margin: 0 auto;
+        margin-top: 25px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 32px 0 32px;
+    }
+    &__item{
+        list-style: none;
+        position: relative;
+        a{
+            font-size: 14px;
+            line-height: 25px;
+            font-weight: 400;
+            color: #ffffff;
+            &:hover{
+                color: #ffffff;
+                text-decoration: none;
+            }
+            
+        }
+        &:after{
+            content:'';
+            position: absolute;
+            width: 1px;
+            height: 45px;
+            background-color:#ffffff;
+            top: -12px;
+            right: -25px;
+        }
+        &:last-child{
+            &:after{
+                content:'';
+                display: none;
+            }
+        }
+
+    }
+}

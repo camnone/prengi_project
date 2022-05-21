@@ -1,0 +1,25 @@
+@import 'libs/bootstrap-reboot.min';
+@import 'base/variables';
+@import 'base//mixins';
+
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 1140px;
+    margin: 0 auto; 
+}
+
+@import 'blocks/header';
+@import 'blocks/title';
+@import 'blocks/promo';
+@import 'blocks/btn';
+@import 'blocks/prengi';
+@import 'blocks/decisions';
+@import 'blocks/carousel';
+@import 'blocks/advantages';
+@import 'blocks/encryp';
+@import 'blocks/start';
+@import 'blocks/footer';

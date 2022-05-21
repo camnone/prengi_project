@@ -1,0 +1,54 @@
+.encryp{
+    &__wrapper{
+        display: grid;
+        grid-template-columns:repeat(2, minmax(580px, auto));
+        grid-template-rows: 1fr;
+        position: relative;
+    }
+
+    &__papper{
+        position: relative;
+        z-index: -1;
+    }
+    &__title{
+        &-left{
+            position: absolute;
+            z-index: 100;
+            right: 82px;
+            top: 270px;
+        }
+        &-right{
+            position: absolute;
+            z-index: 100;
+            left: 82px;
+            top: 270px;
+        }
+    }
+    &__subtitle{
+        &-left{
+            text-align: end;
+            position: absolute;
+            z-index: 100;
+            top: 0;
+            right: 82px;
+            top: 317px;
+        }
+        &-right{
+            max-width: 480px;
+            text-align: start;
+            position: absolute;
+            z-index: 100;
+            top: 0;
+            left: 82px;
+            top: 317px;
+        }
+    }
+    &__t1{
+        position: absolute;
+        width: 375px;
+        text-align: center;
+        left: 50%;
+        transform: translateX(-50%);
+        margin-top: 79px;
+    }
+}

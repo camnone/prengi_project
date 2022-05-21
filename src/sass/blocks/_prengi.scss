@@ -1,0 +1,38 @@
+.prengi{
+    padding: 70px 0 81px 0;
+    &__wrapper{
+        display: grid;
+        grid-template-columns: repeat(3,minmax(360px,auto));
+        grid-template-rows: minmax(255px,auto);
+        column-gap: 31px;
+        grid-auto-rows: 255px;
+        row-gap: 20px;
+    }
+    &__item{
+        position: relative;
+    }
+    &__img{
+        z-index: -1;
+        position: relative;
+    }
+    &__descr{
+        position: absolute;
+        z-index:1;
+        bottom: 36px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 230px;
+        text-align: center;
+
+    }
+    &__arrow{
+        display: block;
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+    &__title{
+        text-align: center;
+        margin-top: 36px;
+        margin-bottom: 37px;
+    }
+}

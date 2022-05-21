@@ -1,0 +1,40 @@
+.footer{
+    min-height: 500px;
+    background-color: #0082a1;
+    padding: 50px 0 40px 0;
+    &__papper{
+        max-width: 380px;
+    }
+    &__wrapper{
+        display: flex;
+        color: #fff;
+        justify-content: space-between;
+    }
+    &__title{
+        margin-bottom: 20px;
+    }
+
+    &__text{
+        margin-top: 20px;
+    }
+
+    &__list{
+        li{
+            list-style: none;
+            padding: 2px 0;
+        }
+    }
+    &__line{
+        width: 1171px;
+        height: 1px;
+        opacity: 0.3;
+        display: block;
+        margin: 0 auto;
+        margin-top: 44px;
+        background-color: #4da8be;
+    }
+    &__descr{
+        text-align: center;
+        margin-top: 36px;
+    }
+}

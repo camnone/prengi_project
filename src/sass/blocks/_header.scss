@@ -1,0 +1,35 @@
+.header{
+      min-height: 85px;
+      padding: 20px 0 16px 0;
+      width: 100%;
+
+      &__wrapper{
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+      }
+      &__item{
+            position: relative;
+            min-width: 170px;
+            padding-left: 40px;
+      }
+      a{
+            display: block;
+      }
+      &__phone, &__email{
+            font-size: 12px;
+            font-weight: 300;
+            color: #242424;
+            &:hover{
+                  text-decoration: none;
+                  color: #242424;
+            }
+      }
+
+      &__img{
+            width: 28px;
+            height: 21px;
+            position: absolute;
+            left: 0;
+      }  
+}
